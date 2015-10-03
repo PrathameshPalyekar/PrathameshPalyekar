@@ -1,0 +1,158 @@
+﻿body {
+    height: 100%;
+    font-family: 'Times New Roman', 'Arial','Comic Sans MS', cursive;
+}
+.mycontainer {
+    height: 100%;
+}
+
+.mycontainer1 {
+    height: 100vh;
+    background-color: #90C589;
+}
+.mycontainer:nth-child(odd) {
+    background-color: #93B1C6;
+}
+
+
+.mycontainer:nth-child(even) {
+    background-color: #C7D0D5;
+}
+
+h3 {
+    float: right;
+}
+
+.navbar {
+    margin: 0px;
+    z-index: 99 !important;
+}
+
+.affix {
+      top: 0;
+      width: 100%;
+  }
+
+.section {
+    font-size: x-large;
+}
+
+.active .section {
+    background-color: #90C589 !important;
+    border-radius: 5px;
+}
+
+.content-section {
+    margin: 0px auto;
+    width: 50%;
+    height: 100%;
+    background-color: transparent;
+}
+
+.titleDiv {
+    color: #2F739D;
+    margin: 0px auto;
+    padding: 20px;
+    padding-top: 80px;
+    font-family: 'Helvetica', 'Arial', 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+    font-size: -webkit-xxx-large;
+    text-align:center;
+    border-bottom-style:solid;
+    border-bottom-color:#8996A3;
+    border-bottom-width:thin;
+}
+
+
+img {
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: lightgrey;
+    border-width: medium;
+}
+
+.profileDiv {
+    padding-top: 30px;
+    margin: 40px;
+    margin-bottom: 80px;
+}
+
+.contentTitleDiv {
+    color: #2F739D;
+    margin: 0px auto;
+    padding: 5px;
+    padding-top: 15px;
+    font-family: 'Helvetica', 'Arial', 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+    font-size: xx-large;
+    text-align:center;
+    border-bottom-style:solid;
+    border-bottom-color:#8996A3;
+    border-bottom-width:thin;
+}
+
+.content {
+    color: black;
+    margin: 0px auto;
+    padding: 5px;
+    padding-top: 15px;
+    font-family: 'Helvetica', 'Arial', 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+    font-size: large;
+    text-align:left;
+}
+
+.tablehead {
+    color: #2F739D;
+    margin: 0px auto;
+    padding: 25px;
+    padding-top: 15px;
+    font-family: 'Helvetica', 'Arial', 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+    font-size: x-large;
+}
+
+.tablecontent{
+    color: black;
+    font-family: 'Helvetica', 'Arial', 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+    font-size: large;
+    
+}
+
+.cellcontent{
+    padding: 25px !important;
+}
+
+.careerDiv {
+    padding-top: 45px;
+    border-bottom-style:solid;
+    border-bottom-color:#8996A3;
+    border-bottom-width:thin;
+    margin-bottom: 25px;
+}
+
+.educationDiv {
+    padding-top:25px;
+    padding-bottom: 15px;
+    border-bottom-style:solid;
+    border-bottom-color:#8996A3;
+    border-bottom-width:thin;
+}
+
+.skillsDiv {
+    padding: 0px 100px;
+}
+
+.skillContent{
+    color: black;
+    margin: 0px auto;
+    padding: 5px;
+    padding-top: 15px;
+    font-family: 'Helvetica', 'Arial', 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+    font-size: larger;
+    text-align:left;
+    text-align: center;
+    line-height: 1.9;
+}
+
+.leftalign{
+    text-align: left;
+}
