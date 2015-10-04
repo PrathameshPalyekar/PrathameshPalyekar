@@ -1,0 +1,155 @@
+﻿/** Styles for Tag*/
+body {
+    font-family: 'Helvetica', 'Arial', 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+    color: #22A39F;
+    
+}
+
+/** Styles for Classes */
+
+.affix {
+    top: 0;
+    width: 100%;
+}
+
+.borderBottom {
+    border-bottom-style: solid;
+    border-bottom-color: #8996A3;
+    border-bottom-width: thin;
+}
+
+.list-group-item {
+    background-color: rgba(203, 185, 118, 0.6) !important;
+}
+
+.navbar {
+    margin: 0px !important;
+    z-index: 99 !important;
+}
+
+.table-striped>tbody>tr:nth-of-type(even) {
+    background-color: #f9f9f9 !important;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #d0d0d0 !important;
+}
+
+.tintscreen {
+    height: 92%;
+    width: 94%;
+    position: absolute;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 5px;
+}
+
+.CareerDiv {
+    padding-top: 45px;
+    margin-bottom: 25px;
+}
+
+.CellContent{
+    padding: 25px !important;
+}
+
+
+.ContactStyle{
+    margin: 10px 10px 20px 10px;
+    padding-left: 50px;
+    font-size: larger;
+}
+
+.ContactImg{
+    height: 30px;
+    width: 30px;
+}
+
+.Content {
+    color: darkslategray;
+    margin: 0px auto;
+    padding: 15px 5px 5px 5px;
+    font-size: larger;
+}
+
+.Content-Section-Div {
+    margin: 0px auto;
+    width: 50%;
+}
+
+.ContentTitleDiv {
+    padding: 15px 5px 5px 5px;
+    font-size: xx-large;
+}
+
+.NavHeader {
+    font-size: x-large;
+    font-family: 'Times New Roman', 'Arial','Comic Sans MS', cursive;
+}
+
+.active > .NavHeader {
+    background-color: #90C589 !important;
+    border-radius: 5px;
+}
+
+.ImageContent {
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 10px;
+    border: medium solid lightgray;
+}
+
+.ProfileDiv {
+    padding-top: 30px;
+    margin: 40px;
+    margin-bottom: 80px;
+}
+
+.ProjectDiv {
+    margin: 30px;
+    margin-top: 60px;
+}
+
+.ProjectContentDiv{
+    height: 250px;
+    padding: 10px;
+    background-color: #BDC5D0;
+    border-radius: 5px;
+}
+
+.ProjectTitleDiv {
+    color: white;
+    padding: 20px;
+}
+
+.ProjectTitleHead {
+    font-size: x-large;
+}
+
+
+.SectionContainer:nth-child(even) {
+    background-color: #F0F0F0;
+}
+
+.SectionContainer:nth-child(odd) {
+    background-color: #F5ECCA;
+}
+
+.TableHead {
+    margin: 0px auto;
+    padding: 15px 25px 25px 25px;
+    font-size: x-large;
+}
+
+.TableContent{
+    color: darkslategray;
+    font-family: 'Helvetica', 'Arial', 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+    font-size: large;  
+}
+
+.TitleDiv {
+    margin: 0px auto;
+    padding: 80px 20px 20px 20px;
+    font-size: 50px;
+    text-align: center;
+}
+
