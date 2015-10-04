@@ -8,6 +8,7 @@
   <script src="jquery-1.11.3.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <link href="StyleSheet1.css" rel="stylesheet"/>
+  <script src="JavaScript1.js"></script>
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="100">  
     <nav class="navbar navbar-inverse col-sm-12" data-spy="affix" data-offset-top="0">
@@ -44,7 +45,7 @@
                     </div>
                 </div>
                 <div class="col-sm-4">
-                    <img src="Profile.jpg"/>
+                    <img class="imgtag" src="Profile.jpg"/>
                 </div>
                 <div class="col-sm-4">
                     <div class="contentTitleDiv">Details</div>
@@ -55,6 +56,8 @@
                         24<br/><br/>
                         <b>Current Location:</b><br/> 
                         Hyderabad<br/><br/>
+                        <b>Resume:</b><br/> 
+                        <img src="Adobe_PDF_file_icon_32x32.png"/> <a href="PRATHAMESH_PALYEKAR_BT10CSE056.pdf" target="_blank">Download</a><br/><br/>
                     </div>
                 </div>
             </div>
@@ -190,6 +193,137 @@
     <div class="mycontainer col-sm-12" id="projects">
         <div class="content-section">
             <div class="titleDiv">Projects</div>
+            <div class="row projectDiv">
+                <div class="col-sm-5 projectContent" id="project1"><div class="tintscreen" id="tint1" data-toggle="modal" data-target="#myModal1">
+                    <div class="projecttitleDiv"><div class="projecttitleHead"> IIT-B</div><br />May'13 - July'13<br />Internship<br /><i><small> (Click to see details)</small></i></div>
+                </div><img class="imgtag" src="iitb.jpg"/></div>
+                <!-- Modal -->
+                <div id="myModal1" class="modal fade" role="dialog">
+                  <div class="modal-dialog">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Indian Institute of Technology Bombay</h4>
+                      </div>
+                      <div class="modal-body">
+                          <div><b>Project Title:</b> Aadhar authentication module on Aakash Tablet</div><br />
+                        <div>Developed cost effective device which can substitute finger print scanner present today. It also includes developing application which converts the fingerprint image captured by VGA camera of Aakash tablet which undergoes thresholding, thinning and image histogram equalization to produce binary image which is sent over server for authentication. My contribution to the application includes developing a hardware device and user interface for application, capturing image using device camera and conversion of processed image to binary image.</div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="col-sm-2"></div>
+                <div class="col-sm-5 projectContent" id="project2"><div class="tintscreen" id="tint2" data-toggle="modal" data-target="#myModal2">
+                    <div class="projecttitleDiv"><div class="projecttitleHead"> OfficeBox Software Pvt Ltd</div><br />May'12 - July'12<br />Internship<br /><i><small> (Click to see details)</small></i></div>
+                </div><img class="imgtag" src="officebox.jpg"/></div>
+                <!-- Modal -->
+                <div id="myModal2" class="modal fade" role="dialog">
+                  <div class="modal-dialog">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">OfficeBox Software Pvt Ltd</h4>
+                      </div>
+                      <div class="modal-body">
+                          
+                        <div>Developed Desktop application for vendors which help them to manage resources and bills. My contribution to the application included developing a user tool which allows customers to choose a date from calendar tool for purchase, delivery etc. Also developed desktop games like car racing, tic tac toe etc to get familiar with Microsoft Visual Studio.</div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+            </div>
+            <div class="row projectDiv">
+                <div class="col-sm-5 projectContent" id="project3"><div class="tintscreen" id="tint3" data-toggle="modal" data-target="#myModal3">
+                    <div class="projecttitleDiv"><div class="projecttitleHead"> Interactive, Enhanced Periodic table</div><br />May'13<br /><i><small> (Click to see details)</small></i></div>
+                </div><img class="imgtag" src="Periodictable.png"/></div>
+                <!-- Modal -->
+                <div id="myModal3" class="modal fade" role="dialog">
+                  <div class="modal-dialog">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Interactive, Enhanced Periodic table</h4>
+                      </div>
+                      <div class="modal-body">
+                          
+                        <div>Designed Interactive, Enhanced and Compact Periodic Table application which gives detailed information about each element and classify them on basis of properties. It had to be developed in 2 days.<br />Technologies used: <b>Android SDK</b></div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="col-sm-2"></div>
+                <div class="col-sm-5 projectContent" id="project4"><div class="tintscreen" id="tint4" data-toggle="modal" data-target="#myModal4">
+                    <div class="projecttitleDiv"><div class="projecttitleHead"> Contract Bridge - game of deduction</div><br />Final Year Project<br /><i><small> (Click to see details)</small></i></div>
+                </div><img class="imgtag" src="Bridge.JPG"/></div>
+                <!-- Modal -->
+                <div id="myModal4" class="modal fade" role="dialog">
+                  <div class="modal-dialog">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Contract Bridge - game of deduction</h4>
+                      </div>
+                      <div class="modal-body">
+                          
+                        <div>Aim is to build contract bridge game for desktop users as well as android users. The idea is to develope computer player using Artificial Intelligence technique and intelligent decision making algorithm. Lan Game version has been implemented too.</div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+            </div>
+            <div class="row projectDiv">
+                <div class="col-sm-5 projectContent" id="project5"><div class="tintscreen" id="tint5" data-toggle="modal" data-target="#myModal5">
+                    <div class="projecttitleDiv"><div class="projecttitleHead"> Factset Systems</div><br />June'14 - Present<br /><i><small> (Click to see details)</small></i></div>
+                </div><img class="imgtag" src="Factset.png"/></div>
+                <!-- Modal -->
+                <div id="myModal5" class="modal fade" role="dialog">
+                  <div class="modal-dialog">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Factset Systems</h4>
+                      </div>
+                      <div class="modal-body">
+                          
+                        <div>Did many projects</div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="col-sm-2"></div>
+                <div class="col-sm-5"></div>
+                </div>
+            </div>
         </div>
     </div>
     <div class="mycontainer col-sm-12" id="contact">
@@ -197,12 +331,9 @@
             <div class="titleDiv">Contact</div>
                 <div class="skillsDiv row">
                 <div class="row">
-                    <a href="pratham2604@gmail.com" class="btn btn-info btn-sm">
-                      <span class="glyphicon glyphicon-envelope"></span>
-                    </a>Mail me<br />
-                    <a href="pratham2604@gmail.com" class="btn btn-default btn-sm">
-                      <span class="glyphicon glyphicon-phone"></span>
-                    </a>Call me
+                    <div class="contactStyle"><img src="email_open.ico" class="contactImg"/><a href="mailto:pratham2604@gmail.com" target="_top">   Mail Me</a></div>
+                    <div class="contactStyle"><img src="mobile_phone.ico" class="contactImg"/>    +91 9849264836</div>
+                    <div class="contactStyle"><img src="facebook.ico" class="contactImg"/><a href="https://www.facebook.com/prathameshhack" target="_blank">   Add Me</a></div>
                 </div>
             </div>
         </div>

@@ -63,7 +63,7 @@ h3 {
 }
 
 
-img {
+.imgtag {
     max-height: 100%;
     max-width: 100%;
     border-radius: 10px;
@@ -155,4 +155,52 @@ img {
 
 .leftalign{
     text-align: left;
+}
+
+.contactStyle{
+    margin: 10px;
+    margin-bottom: 20px;
+    padding-left: 50px;
+    font-family: 'Helvetica', 'Arial', 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+    font-size: larger;
+}
+
+.contactImg{
+    height: 30px;
+    width: 30px;
+}
+
+.projectDiv {
+    margin: 30px;
+    margin-top: 60px;
+}
+
+.projectContent{
+    height: 250px;
+    padding: 10px;
+    background-color: #BDC5D0;
+    border-radius: 5px;
+}
+
+.tintscreen {
+    height: 92%;
+    width: 94%;
+    position: absolute;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 5px;
+}
+
+.projecttitleDiv {
+    color: white;
+    font-family: 'Helvetica', 'Arial', 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+    text-align:left;
+    padding: 20px;
+    
+}
+
+.projecttitleHead {
+    font-size: x-large;
+    border-bottom-style:solid;
+    border-bottom-color:#8996A3;
+    border-bottom-width:thin;
 }
